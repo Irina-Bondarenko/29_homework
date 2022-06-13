@@ -2,7 +2,7 @@
 
 // HOMEWORK #29
 
-void (function () {
+void function () {
   let ladder = {
     step: 0,
     up() {
@@ -26,4 +26,4 @@ void (function () {
   // console.log(ladder.showStep());
 
   console.log(ladder.up().up().down().showStep());
-})();
+}();
